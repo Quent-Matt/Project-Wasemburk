@@ -20,7 +20,7 @@ export default function ErreurWD440PT() {
                 Veuillez suivre les instructions pour réparer correctement votre appareil.
             </p>
 
-            {/* Barre de recherche */}
+
             <input
                 type="text"
                 placeholder="Rechercher une erreur..."
@@ -29,7 +29,6 @@ export default function ErreurWD440PT() {
                 className="mt-6 w-full max-w-md p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
 
-            {/* Liste filtrée */}
             <div className="mt-4">
                 {filteredItems.length > 0 ? (
                     filteredItems.map(item => (

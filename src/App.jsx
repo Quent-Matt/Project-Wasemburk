@@ -16,7 +16,7 @@ function App() {
                 <NavBar />
                 <div className="p-4">
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="Project-Wasemburk/" element={<Home />} />
                         <Route path="/instalationdry" element={<InstallationDry />} />
                         <Route path="/erreurdry" element={<ErreurDry />} />
                         <Route path="/instalationwd440" element={<InstallationWD440 />} />
