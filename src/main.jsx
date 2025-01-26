@@ -7,4 +7,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <App />
     </React.StrictMode>
-);eateRoot(document.getElementById("root")).render (<App/>);
+);ceateRoot(document.getElementById("root")).render (<App/>);
