@@ -8,6 +8,7 @@ import InstallationWD440 from "./pages/InstalationWD440.jsx";
 import InstallationWD440PT from "./pages/InstalationWD440PT.jsx";
 import ErreurWD440 from "./pages/ErreurWD440.jsx";
 import ErreurWD440PT from "./pages/ErreurWD440PT.jsx";
+import PompeVidange from "./pages/Error/PompeVidange.jsx";
 
 function App() {
     return (
@@ -23,6 +24,9 @@ function App() {
                         <Route path="/erreurwd440" element={<ErreurWD440 />} />
                         <Route path="/instalationwd440pt" element={<InstallationWD440PT />} />
                         <Route path="/erreurwd440pt" element={<ErreurWD440PT />} />
+                        
+
+                        <Route path="/Erreur-pompe-Vidange" element={<PompeVidange />} />/
                     </Routes>
                 </div>
             </div>

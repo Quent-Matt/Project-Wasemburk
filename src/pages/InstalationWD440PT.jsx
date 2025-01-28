@@ -1,9 +1,9 @@
 import React from "react";
-import prefiltre from "../assets/IMG-20231123-WA0000.jpg";
-import evacuationAir from "../assets/IMG-20241030-WA0001.jpg";
-import imagemachine from "../assets/20241105_100639.jpg";
-import imagemachine2 from "../assets/20220127_100944.jpg";
-import imagemachine3 from "../assets/IMG-20241105-WA0001.jpeg";
+import prefiltre from "../assets/InstallationPT/IMG-20231123-WA0000.jpg";
+import evacuationAir from "../assets/InstallationPT/IMG-20241030-WA0001.jpg";
+import imagemachine from "../assets/InstallationPT/20241105_100639.jpg";
+import imagemachine2 from "../assets/InstallationPT/20220127_100944.jpg";
+import imagemachine3 from "../assets/InstallationPT/IMG-20241105-WA0001.jpeg";
 
 export default function InstallationWD440PT() {
     return (
