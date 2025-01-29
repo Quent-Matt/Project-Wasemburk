@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function ErreurWD440PT() {
     const items = [
         { id: 1, name: "Dysfonctionnement de la pompe de vidange", path:"/Erreur-pompe-vidange" },
-        { id: 2, name: "Erreur 405" },
+        { id: 2, name: "Pas de pression de circulation", path:"/Erreur-pression-circulation" },
         { id: 3, name: "Erreur 406" },
         { id: 4, name: "Erreur 407" },
         { id: 5, name: "Erreur 408" },

@@ -9,6 +9,7 @@ import InstallationWD440PT from "./pages/InstalationWD440PT.jsx";
 import ErreurWD440 from "./pages/ErreurWD440.jsx";
 import ErreurWD440PT from "./pages/ErreurWD440PT.jsx";
 import PompeVidange from "./pages/Error/PompeVidange.jsx";
+import PressionCirculation from "./pages/Error/PressionCirculation.jsx";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                         
 
                         <Route path="/Erreur-pompe-Vidange" element={<PompeVidange />} />/
+                        <Route path="/Erreur-pression-circulation" element={<PressionCirculation />} />/
                     </Routes>
                 </div>
             </div>
