@@ -12,7 +12,7 @@ export default function PressionCirculation() {
         <div>
            <h2 className="text-5xl pb-12 pt-4 text-emerald-700 font-medium">Erreur : Pas de pression de circulation</h2>
             <div>
-                <div>Il existe plusieurs cause pour ce message</div>
+                <div className="text-xl flex justify-center pt-4">Il existe plusieurs cause pour ce message</div>
                 <div>
                     1 ere cause, le tube hélicoïdal est obstrué par un objet  cliqué ici
                     2ème cause,  le bras oscillant ne tourne pas      cliqué ici
@@ -25,7 +25,7 @@ export default function PressionCirculation() {
                     alt="Machine WD 440 (PT) pression circulation"
                     className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
                 />
-                <div>Dévisser la bague.</div>
+                <div className="text-xl flex justify-center pt-4">Dévisser la bague.</div>
                 <img
                     src={pressioncirculation1}
                     alt="Machine WD 440 (PT) pression circulation"
@@ -36,13 +36,13 @@ export default function PressionCirculation() {
                     alt="Machine WD 440 (PT) pression circulation"
                     className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
                 />
-                <div>nspecter l'intérieur à la recherche d'un objet.</div>
+                <div className="text-xl flex justify-center pt-4">nspecter l'intérieur à la recherche d'un objet.</div>
                 <img
                     src={pressioncirculation3}
                     alt="Machine WD 440 (PT) pression circulation"
                     className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
                 />
-                <div>Nettoyer le filtre</div>
+                <div className="text-xl flex justify-center pt-4">Nettoyer le filtre</div>
                 <img
                     src={pressioncirculation4}
                     alt="Machine WD 440 (PT) pression circulation"
@@ -53,7 +53,7 @@ export default function PressionCirculation() {
                     alt="Machine WD 440 (PT) pression circulation"
                     className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
                 />
-                <div>Visser la bague</div>
+                <div className="text-xl flex justify-center pt-4">Visser la bague</div>
             </div>
         </div>
     )

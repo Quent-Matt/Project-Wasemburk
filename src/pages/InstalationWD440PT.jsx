@@ -28,7 +28,7 @@ export default function InstallationWD440PT() {
                 alt="Machine WD 440 PT"
                 className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            Accès aux robinets, prise 220V , prise rj45, évacuation de l'air vicié
+                <div className="text-xl flex justify-center pt-4">Accès aux robinets, prise 220V , prise rj45, évacuation de l'air vicié</div>
             <img
                 src={imagemachine6}
                 alt="Machine WD 440 PT"
@@ -74,12 +74,12 @@ export default function InstallationWD440PT() {
                 alt="Machine WD 440 PT prefiltre"
                 className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div>préfiltres</div>
+            <div className="text-xl flex justify-center pt-4">Préfiltres</div>
             <img src={evacuationAir}
                  alt="Machine WD 440 PT evacuation d'air"
                  className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div>Evacuation air 50mm
+            <div className="text-xl flex justify-center pt-4">Evacuation air 50mm
                 Arrivée d'eau froide et chaude ( 10 litres par min , eau chaude min 50 degrés
             </div>
             <img src={imagemachine}
@@ -90,7 +90,7 @@ export default function InstallationWD440PT() {
                  alt="Machine"
                  className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div>ici pour deux PT wd 440 et un pt prévisionnel préfiltres à double filtration</div>
+            <div className="text-xl flex justify-center pt-4">ici pour deux PT wd 440 et un pt prévisionnel préfiltres à double filtration</div>
             <img src={imagemachine3}
                  alt="Machine"
                  className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"

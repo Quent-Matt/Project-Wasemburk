@@ -11,7 +11,7 @@ export default function PompeVidange() {
     return (
         <div>
             <h2 className="text-5xl pb-12 pt-4 text-emerald-700 font-medium">Erreur : Dysfonctionement de la Pompe de vidange</h2>
-            <div>Il y aura de l'eau dans le tuyau blanc ainci que dans la
+            <div className="text-xl flex justify-center pt-4">Il y aura de l'eau dans le tuyau blanc ainci que dans la
                 pompe de vidange, prévoyer un récipient et des
                 essuies .</div>
             <img
@@ -19,7 +19,7 @@ export default function PompeVidange() {
                 alt="Machine WD 440 (PT) pompe vidange"
                 className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div>
+            <div className="text-xl flex justify-center pt-4">
                 Couper le tiewrap
             </div>
             <img
@@ -27,20 +27,20 @@ export default function PompeVidange() {
                 alt="Machine WD 440 (PT) pompe vidange"
                 className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div>Retirer le tuyau blanc </div>
+            <div className="text-xl flex justify-center pt-4">Retirer le tuyau blanc </div>
             <img
                 src={pompeVidange2}
                 alt="Machine WD 440 (PT) pompe vidange"
                 className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div>Retirer le clapet anti-retour et insérer un nouveau
+            <div className="text-xl flex justify-center pt-4">Retirer le clapet anti-retour et insérer un nouveau
                 clapet. </div>
             <img
                 src={pompeVidange3}
                 alt="Machine WD 440 (PT) pompe vidange"
                 className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div>Connecter le tuyau .</div>
+            <div className="text-xl flex justify-center pt-4">Connecter le tuyau .</div>
             <img
                 src={pompeVidange4}
                 alt="Machine WD 440 (PT) pompe vidange"
@@ -51,7 +51,7 @@ export default function PompeVidange() {
                 alt="Machine WD 440 (PT) pompe vidange"
                 className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
-            <div> Fixer un tiewrap.</div>
+            <div className="text-xl flex justify-center pt-4"> Fixer un tiewrap.</div>
         </div>
     )
 }
