@@ -4,19 +4,19 @@ const Popup = () => {
     const [showPopUp, setShowPopUp] = useState(true);
 
     useEffect(() => {
-        // Vérifie si l'utilisateur a déjà accepté
+
         if (sessionStorage.getItem('popupAccepted')) {
             setShowPopUp(false);
         }
     }, []);
 
     const handleAccept = () => {
-        // Cache le pop-up et enregistre dans localStorage
+
         setShowPopUp(false);
         sessionStorage.setItem('popupAccepted', 'true');
     };
 
-    if (!showPopUp) return null; // Si le pop-up est accepté, il ne s'affiche plus
+    if (!showPopUp) return null;
 
     return (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
