@@ -5,6 +5,8 @@ import pressioncirculation2 from "../../assets/PressionCirculation/20240715_0949
 import pressioncirculation3 from "../../assets/PressionCirculation/20240715_094925.jpg";
 import pressioncirculation4 from "../../assets/PressionCirculation/20240715_095310.jpg";
 import pressioncirculation5 from "../../assets/PressionCirculation/20240715_095107.jpg";
+import pompeVidange from "../../assets/pompeVidange/20240619_112305.jpg";
+import ImageModal from "../../composent/ImageModal.jsx";
 
 
 export default function PressionCirculation() {
@@ -19,40 +21,18 @@ export default function PressionCirculation() {
                     3ème  cause , le niveau d'eau est trop bas      cliqué ici
                 </div>
                 <h2>  1 ere cause  le tube hélicoïdal est obstrué</h2>
+                <ImageModal src={pressioncirculation} alt="machine WD 440 PT pression circulation"/>
 
-                <img
-                    src={pressioncirculation}
-                    alt="Machine WD 440 (PT) pression circulation"
-                    className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-                />
                 <div className="text-xl flex justify-center pt-4">Dévisser la bague.</div>
-                <img
-                    src={pressioncirculation1}
-                    alt="Machine WD 440 (PT) pression circulation"
-                    className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-                />
-                <img
-                    src={pressioncirculation2}
-                    alt="Machine WD 440 (PT) pression circulation"
-                    className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-                />
+                <ImageModal src={pressioncirculation1} alt="machine WD 440 PT pression circulation"/>
+                <ImageModal src={pressioncirculation2} alt="machine WD 440 PT pression circulation"/>
+
                 <div className="text-xl flex justify-center pt-4">nspecter l'intérieur à la recherche d'un objet.</div>
-                <img
-                    src={pressioncirculation3}
-                    alt="Machine WD 440 (PT) pression circulation"
-                    className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-                />
+                <ImageModal src={pressioncirculation3} alt="machine WD 440 PT pression circulation"/>
+
                 <div className="text-xl flex justify-center pt-4">Nettoyer le filtre</div>
-                <img
-                    src={pressioncirculation4}
-                    alt="Machine WD 440 (PT) pression circulation"
-                    className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-                />
-                <img
-                    src={pressioncirculation5}
-                    alt="Machine WD 440 (PT) pression circulation"
-                    className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-                />
+                <ImageModal src={pressioncirculation4} alt="machine WD 440 PT pression circulation"/>
+                <ImageModal src={pressioncirculation5} alt="machine WD 440 PT pression circulation"/>
                 <div className="text-xl flex justify-center pt-4">Visser la bague</div>
             </div>
         </div>

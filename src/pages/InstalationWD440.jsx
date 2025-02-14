@@ -1,6 +1,7 @@
 import React from "react";
 import installWd from "../assets/InstallationWD/20250129_080840 (1).jpg";
 import installWd1 from "../assets/InstallationWD/20250129_080814.jpg";
+import ImageModal from "../composent/ImageModal.jsx";
 
 export default function InstallationWD440() {
     return (
@@ -25,17 +26,9 @@ export default function InstallationWD440() {
             <div className="text-xl flex justify-center pt-4">
                 Vanne eau chaude min 50°C , 10L:min
             </div>
-            <img
-                src={installWd}
-                alt="Machine WD 440 "
-                className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-            />
+            <ImageModal src={installWd} alt="Machine WD 440"/>
             <div className="text-xl flex justify-center pt-4">Evacuation </div>
-            <img
-                src={installWd1}
-                alt="Machine WD 440 "
-                className="mt-6 w-full max-w-md mx-auto rounded-lg shadow-lg"
-            />
+            <ImageModal src={installWd1} alt="Machine WD 440"/>
         </div>
     );
 }
