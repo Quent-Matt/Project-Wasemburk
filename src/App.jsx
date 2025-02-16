@@ -10,6 +10,8 @@ import ErreurWD440 from "./pages/ErreurWD440.jsx";
 import ErreurWD440PT from "./pages/ErreurWD440PT.jsx";
 import PompeVidange from "./pages/Error/PompeVidange.jsx";
 import PressionCirculation from "./pages/Error/PressionCirculation.jsx";
+import DysfonctionnementFlowFiltre from "./pages/Error/DysfonctionnementFlowFlitre/DysfonctionnementFlowFiltre.jsx";
+import DI16 from "./pages/Error/DysfonctionnementFlowFlitre/DI16.jsx";
 
 function App() {
     return (
@@ -29,6 +31,8 @@ function App() {
 
                         <Route path="/Erreur-pompe-Vidange" element={<PompeVidange />} />/
                         <Route path="/Erreur-pression-circulation" element={<PressionCirculation />} />/
+                        <Route path="/Erreur-IMS-dysfonctionnement-flow-filtre" element={<DysfonctionnementFlowFiltre />} />/
+                        <Route path="/Erreur-IMS-dysfonctionnement-flow-filtre/Di-16" element={<DI16 />} />/
                     </Routes>
                 </div>
             </div>
