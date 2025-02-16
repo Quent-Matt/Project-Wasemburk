@@ -5,7 +5,7 @@ import pressioncirculation2 from "../../assets/PressionCirculation/20240715_0949
 import pressioncirculation3 from "../../assets/PressionCirculation/20240715_094925.jpg";
 import pressioncirculation4 from "../../assets/PressionCirculation/20240715_095310.jpg";
 import pressioncirculation5 from "../../assets/PressionCirculation/20240715_095107.jpg";
-import pompeVidange from "../../assets/pompeVidange/20240619_112305.jpg";
+
 import ImageModal from "../../composent/ImageModal.jsx";
 
 

@@ -6,7 +6,7 @@ import pompeVidange3 from "../../assets/pompeVidange/20240619_113015.jpg";
 import pompeVidange4 from "../../assets/pompeVidange/20240619_113025.jpg";
 import pompeVidange5 from "../../assets/pompeVidange/20240619_113058.jpg";
 import ImageModal from "../../composent/ImageModal.jsx";
-import imagemachine9 from "../../assets/InstallationPT/insta/20220128_114157.jpg";
+
 
 export default function PompeVidange() {
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { XMarkIcon } from "@heroicons/react/24/solid";
 
 export default function ImageModal({ src, alt }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -49,6 +50,12 @@ export default function ImageModal({ src, alt }) {
                         }}
                         onClick={(e) => e.stopPropagation()} // Empêche la fermeture si on clique sur l’image
                     >
+                        <button
+                            className="absolute top-2 right-2 bg-gray-800 text-white rounded-full p-1 hover:bg-gray-600"
+                            onClick={closeModal}
+                        >
+                            <XMarkIcon className="w-6 h-6"/>
+                        </button>
                         {/* Conteneur de l'image avec redimensionnement forcé */}
                         <div
                             className="cursor-pointer flex justify-center items-center"
