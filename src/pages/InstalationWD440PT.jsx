@@ -31,11 +31,8 @@ export default function InstallationWD440PT() {
                         Bienvenue sur la page d'installation de la machine <strong>WD 440 PT</strong>.
                         Veuillez suivre les instructions pour installer correctement votre appareil.
                 </p>
-            <ImageModal src={imagemachine9} alt="machine WD 440 PT"/>
-
-                <div className="text-xl flex justify-center pt-4">Accès aux robinets, prise 220V , prise rj45,
-                        évacuation de l'air vicié
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+                <ImageModal src={imagemachine9} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine6} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine5} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine4} alt="machine WD 440 PT"/>
@@ -45,19 +42,9 @@ export default function InstallationWD440PT() {
                 <ImageModal src={imagemachine10} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine11} alt="machine WD 440 PT"/>
                 <ImageModal src={prefiltre} alt="machine WD 440 PT"/>
-
-                <div className="text-xl flex justify-center pt-4">Préfiltres</div>
-                <ImageModal src={evacuationAir} alt="machine WD 440 PT"/>
-
-                <div className="text-xl flex justify-center pt-4">Evacuation air 50mm
-                        Arrivée d'eau froide et chaude ( 10 litres par min , eau chaude min 50 degrés
-                </div>
+                <ImageModal src={evacuationAir} alt="machine WD 440 PT" />
                 <ImageModal src={imagemachine} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine2} alt="machine WD 440 PT"/>
-
-                <div className="text-xl flex justify-center pt-4">ici pour deux PT wd 440 et un pt prévisionnel
-                        préfiltres à double filtration
-                </div>
                 <ImageModal src={imagemachine3} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine13} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine14} alt="machine WD 440 PT"/>
@@ -66,11 +53,7 @@ export default function InstallationWD440PT() {
                 <ImageModal src={imagemachine17} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine18} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine19} alt="machine WD 440 PT"/>
-
-
-
-
-
+            </div>
         </div>
     );
 }

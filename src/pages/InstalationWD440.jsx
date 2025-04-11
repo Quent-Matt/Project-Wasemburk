@@ -27,7 +27,7 @@ export default function InstallationWD440() {
                 Vanne eau chaude min 50°C , 10L:min
             </div>
             <ImageModal src={installWd} alt="Machine WD 440"/>
-            <div className="text-xl flex justify-center pt-4">Evacuation </div>
+            <div className="text-xl flex justify-center pt-4">Evacuation en 40 mm</div>
             <ImageModal src={installWd1} alt="Machine WD 440"/>
         </div>
     );
