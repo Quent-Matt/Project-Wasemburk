@@ -20,6 +20,8 @@ import imagemachine16 from "../assets/InstallationPT/lation/20250203_090837.jpg"
 import imagemachine17 from "../assets/InstallationPT/lation/20250203_090852.jpg";
 import imagemachine18 from "../assets/InstallationPT/lation/20250203_090910.jpg";
 import imagemachine19 from "../assets/InstallationPT/lation/20250203_090928.jpg";
+import imagemachine20 from "../assets/InstallationPT/pt-dimention1.jpg";
+import imagemachine21 from "../assets/InstallationPT/pt-dimention2.jpg";
 import installDry5 from "../assets/InstallationDry/instal dry.png";
 import ImageModal from "../composent/ImageModal.jsx";
 
@@ -32,6 +34,8 @@ export default function InstallationWD440PT() {
                         Veuillez suivre les instructions pour installer correctement votre appareil.
                 </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+                <ImageModal src={imagemachine21} alt="machine WD 440 PT"/>
+                <ImageModal src={imagemachine20} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine9} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine6} alt="machine WD 440 PT"/>
                 <ImageModal src={imagemachine5} alt="machine WD 440 PT"/>
